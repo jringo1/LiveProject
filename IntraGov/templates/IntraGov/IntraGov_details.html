@@ -1,0 +1,37 @@
+{% extends 'IntraGov/IntraGov_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container intragov" id="politiciansDetailsPage">
+        <table>
+            <tr>
+                <th>Politician</th>
+                <td>{{politician.name}}</td>
+            </tr>
+            <tr>
+                <th>State or District</th>
+                <td>{{politician.state_or_district}}</td>
+            </tr>
+            <tr>
+                <th>Party</th>
+                <td>{{politician.party}}</td>
+            </tr>
+            <tr>
+                <th>House</th>
+                <td>{{politician.house}}</td>
+            </tr>
+            <tr>
+                <th>Positions</th>
+                <td>{{politician.positions}}</td>
+            </tr>
+            <tr>
+                <th>Year Elected</th>
+                <td>{{politician.year_elected}}</td>
+            </tr>
+        </table>
+
+        <hr />
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'showPolitician' %}'">Back to Database</button>
+    </div>
+</section>
+{% endblock %}

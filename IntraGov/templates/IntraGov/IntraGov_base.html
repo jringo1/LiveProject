@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block stylesheets %}
+{{ block.super }}
+<link type="text/css" rel = "stylesheet" href="{% static 'IntraGov/IntraLayout.css' %}">
+{% endblock %}
+
+{% block pagetop-css %} cover-intragov {% endblock %}
+
+
+{% block page-title %}IntraGov{% endblock %}
+{% block page-subtitle %}Please take a look at the current congressional balance!{% endblock %}
+{% block button1 %}<a href="{% url 'Home' %}" class="contact-btn">IntraGov Home</a>{% endblock %}
+{% block button2 %}<a href="{% url 'Home' %}" class="contact-btn">Congress </a>{% endblock %}
+{% block button4 %}<a href="{% url 'showPolitician' %}" class="contact-btn">Database</a>{% endblock %}
+
+
+{% block appcontent %}
+    {% block templatecontent %}
+    {% endblock %}
+{% endblock %}
+<!--
+    <body>
+
+
+
+
+
+
+    </body>
+-->
