@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: darkgray;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;}
+
+.cover-intragov {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/IntraGovHome.jpg') right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+
+
+.intragov button{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 10px 20px;
+      border: 1px solid var(--dark);
+      background: transparent;
+      color: var(--dark);
+      text-decoration: none;
+      transition: 0.3s;
+  }
+.intragov button:hover {
+    background: var(--dark);
+    color: white;
+  }
+
+.intragov table{
+      width: 75%;
+      align: center;
+      margin: 20px auto;
+      border: 40px 20px 10px 20px;
+      border: 1px solid black;
+  }
+
+.intragov hr{
+      color: var(--lightGray);
+      border-top-width: 2px;
+      margin: 2px;
+  }
+
+.intragov h4{
+      color: var(--midtone);
+      text-align: center;
+      text-shadow: 2px 2px var(--standout);
+  }
+
+.intragov select, label{
+      color: white;
+      background: var(--dark);
+      display: flex;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+#intragovPic{
+      text-align: center;
+      position: relative;
+      padding:0;
+  }
+
+#intragovPic span{
+      width: 100%;
+  }
+.intragov_top {
+      background:transparent!important;
+      display:inline-block;
+      padding:2px 3px;
+      position:relative;
+      top: -230px;
+      width:100%;
+      color: var(--neutral);
+      text-shadow: 2px 2px 5px var(--dark);
+  }
+
+.intragov_center{
+      display:inline-block;
+      padding:2px 3px;
+      color: var(--dark);
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+      line-height:1.5em;
+  }
+.intragov_caption{
+      background:var(--contrast);
+      color:var(--lightGray)
+      text-decoration:none;
+      padding:4px 6px;
+      font-family: Montserrat Helvetica, Ubuntu, Roboto, Noto, Arial, sans-serif;
+      font-size:18px;
+      font-weight:bold;
+      line-height:1.2;
+      display:inline-block;
+      position: absolute;
+      right: 25%;
+  }
+
+#politiciansDatabasePage {
+      padding: 40px;
+  }
+
+#politiciansDatabasePage table th
+   {
+      background:var(--dark);
+      color: darkblue;
+      text-align:center;
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color:#F8B4BA;
+      border: 1px solid darkblue;
+  }
+
+#politiciansDatabasePage table td
+   {
+       background:var(--dark);
+       color: white;
+       text-align:center;
+       font-size: 18px;
+       border: 1px solid darkblue;
+  }
+
+#info-button {
+      background: white;
+      color: var(--dark);
+
+  }
+#info-button:hover {
+      background: var(--dark);
+      color: white;
+  }
+
+#politiciansDetailsPage {
+      padding: 40px;
+  }
+
+#politiciansDetailsPage table th
+   {
+      background:var(--dark);
+      color: darkblue;
+      text-align:center;
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color:#F8B4BA;
+      border: 1px solid darkblue;
+      width: 200px;
+  }
+
+#politiciansDetailsPage table td
+   {
+       background:var(--dark);
+       color: white;
+       text-align:center;
+       font-size: 18px;
+       border: 1px solid darkblue;
+  }
